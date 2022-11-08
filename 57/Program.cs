@@ -1,10 +1,10 @@
 ﻿//Cоздание двумерного массива.
-
 int[,] createArray(int n, int m)
 {
     int[,] array = new int[n, m];
     return array;
 }
+
 // Заполнение массива
 int[,] fillArray(int[,] array, int min, int max)
 {
@@ -16,6 +16,7 @@ int[,] fillArray(int[,] array, int min, int max)
         }
     return array;
 }
+
 //Печать массива
 void printArray(int[,] array)
 {
