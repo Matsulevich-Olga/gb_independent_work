@@ -10,7 +10,7 @@ if (number >= 10 & number <= 99)
     {
         max_digit = second_digit;
     }
-    Console.WriteLine("Max Digit is "+max_digit);
+    Console.WriteLine("Max Digit is " + max_digit);
 }
 else
 {
